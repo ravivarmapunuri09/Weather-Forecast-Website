@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eef2f3;
+  margin: 0;
+  padding: 20px;
+}
+
+.app {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.search-bar {
+  margin: 20px 0;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 60%;
+  max-width: 300px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+
+.forecast {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.weather-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  width: 150px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
